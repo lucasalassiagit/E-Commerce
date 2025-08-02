@@ -1,0 +1,47 @@
+# Ignorar archivos de compilación y ejecución
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.suo
+*.user
+*.cache
+*.vs/
+.vs/
+.vscode/
+*.swp
+*.swo
+
+# Logs y archivos temporales
+*.log
+*.tmp
+*.temp
+
+# Dependencias (NuGet)
+**/packages/*
+!**/packages/repositories.config
+.nuget/
+*.nupkg
+
+# Configuración local (appsettings.Development.json, etc.)
+appsettings.*.json
+
+# Azure Functions
+.local.settings.json
+
+# Rider/ReSharper
+.idea/
+*.sln.iml
+
+# Docker
+.env
+docker-compose.*.yml
+
+# Coverage
+coverage/
+*.coverage
+*.lcov
+
+# Archivos de migraciones (Entity Framework)
+/Migrations/

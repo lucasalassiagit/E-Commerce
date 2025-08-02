@@ -1,0 +1,9 @@
+# Ignorar archivos de IDE/Editors
+.vscode/
+.idea/
+*.suo
+*.user
+
+# Ignorar carpetas de dependencias (Frontend)
+Frontend/node_modules/
+Frontend/dist/
