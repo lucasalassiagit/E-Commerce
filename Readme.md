@@ -9,7 +9,7 @@ Este es un proyecto de e-commerce desarrollado con una arquitectura **Full Stack
 ## 🚀 Tecnologías Utilizadas
 
 ### 🔹 Backend (.NET Core Web API)
-- ASP.NET Core 7
+- ASP.NET Core 8
 - ASP.NET Identity
 - Autenticación y autorización con JWT
 - Entity Framework Core
